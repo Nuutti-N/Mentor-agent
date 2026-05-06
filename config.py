@@ -8,5 +8,8 @@ class Settings(BaseSettings):
     SUPABASE_KEY: str
     SUPABASE_URL: str
 
+    # Gemini
+    GEMINI_API_KEY: str
+
 
 settings = Settings()
