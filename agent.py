@@ -19,6 +19,8 @@ def agent(message: str, history: list):
                 Give clear plan for me what should be do and why should be do,
                 Ask for hard questions, what I avoiding,
                 Just give examples and give plan what give me to chance to get job.
+
+                Save any task, comment, or what I just tell for your!
                 """
             ]
         )
