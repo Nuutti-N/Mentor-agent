@@ -1,6 +1,18 @@
 # cofounder agent
 
 
+## Project
+
+AI co-founder/agent 
+
+
+## Running the Agent 
+```bash
+python AI/main.py
+```
+
+## Tech Stack 
+
 
 ## Environment variables 
 ```env
