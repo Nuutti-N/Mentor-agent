@@ -64,7 +64,7 @@ Three problems identified, fix in this order:
 **1. No conversation history within a session (highest priority)**
 - `agent(message)` only passes the current message — agent has no memory of earlier turns in the same conversation
 - Fix: maintain `history` list in `main.py`, pass it to `agent()`, build `contents = history + [current message]` in Gemini call
-- After each turn append `{"role": "user", ...}` and `{"role": "model", ...}` to history
+- After each turn append `{"role": "user", ...}` and `{"role": "model", ...}` to history ✅ 
 
 **2. Memories not auto-loaded (agent decides when to call search_memories)**
 - Relevant memories should be injected automatically every turn, not left to the model to optionally call the tool
