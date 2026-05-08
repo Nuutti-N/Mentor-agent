@@ -12,7 +12,9 @@ python AI/main.py
 ```
 
 ## Tech Stack 
-
+- **python** — no framework, pure scripts for the personal phase
+- **Gemini API** (google-generativeai) — LLM
+- **Supabase** — Save memory
 
 ## Environment variables 
 ```env
